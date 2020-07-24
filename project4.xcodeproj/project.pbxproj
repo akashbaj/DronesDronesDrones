@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		382FE99B2436CA3E00A6E448 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 382FE99A2436CA3E00A6E448 /* main.cpp */; };
+		38C85D63243D06EC00B21BD9 /* drone.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 38C85D62243D06EC00B21BD9 /* drone.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,25 @@
 
 /* Begin PBXFileReference section */
 		382FE9972436CA3E00A6E448 /* project4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = project4; sourceTree = BUILT_PRODUCTS_DIR; };
-		382FE99A2436CA3E00A6E448 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		382FE9A22436CA7300A6E448 /* sample-c-FASTTSP-out.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sample-c-FASTTSP-out.txt"; sourceTree = "<group>"; };
+		382FE9A32436CA7300A6E448 /* sample-ab-FASTTSP-out.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sample-ab-FASTTSP-out.txt"; sourceTree = "<group>"; };
+		382FE9A42436CA7300A6E448 /* sample-e-MST-out.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sample-e-MST-out.txt"; sourceTree = "<group>"; };
+		382FE9A52436CA7300A6E448 /* sample-ab-MST-out.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sample-ab-MST-out.txt"; sourceTree = "<group>"; };
+		382FE9A62436CA7300A6E448 /* sample-d-FASTTSP-out.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sample-d-FASTTSP-out.txt"; sourceTree = "<group>"; };
+		382FE9A72436CA7300A6E448 /* sample-e-FASTTSP-out.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sample-e-FASTTSP-out.txt"; sourceTree = "<group>"; };
+		382FE9A82436CA7300A6E448 /* sample-c-MST-out.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sample-c-MST-out.txt"; sourceTree = "<group>"; };
+		382FE9A92436CA7300A6E448 /* sample-d-MST-out.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sample-d-MST-out.txt"; sourceTree = "<group>"; };
+		382FE9AA2436CA7300A6E448 /* sample-c.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sample-c.txt"; sourceTree = "<group>"; };
+		382FE9AB2436CA7300A6E448 /* sample-e-OPTTSP-out.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sample-e-OPTTSP-out.txt"; sourceTree = "<group>"; };
+		382FE9AC2436CA7300A6E448 /* sample-d-OPTTSP-out.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sample-d-OPTTSP-out.txt"; sourceTree = "<group>"; };
+		382FE9AD2436CA7300A6E448 /* sample-e.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sample-e.txt"; sourceTree = "<group>"; };
+		382FE9AE2436CA7300A6E448 /* sample-c-OPTTSP-out.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sample-c-OPTTSP-out.txt"; sourceTree = "<group>"; };
+		382FE9AF2436CA7300A6E448 /* sample-d.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sample-d.txt"; sourceTree = "<group>"; };
+		382FE9B02436CA7300A6E448 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		382FE9B12436CA7300A6E448 /* sample-ab.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sample-ab.txt"; sourceTree = "<group>"; };
+		382FE9B22436CA8200A6E448 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		382FE9B32436CABA00A6E448 /* xcode_redirect.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = xcode_redirect.hpp; sourceTree = "<group>"; };
+		38C85D62243D06EC00B21BD9 /* drone.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = drone.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +75,35 @@
 		382FE9992436CA3E00A6E448 /* project4 */ = {
 			isa = PBXGroup;
 			children = (
-				382FE99A2436CA3E00A6E448 /* main.cpp */,
+				382FE9A12436CA7300A6E448 /* P4-Samples-Mac-Unix */,
+				382FE9B32436CABA00A6E448 /* xcode_redirect.hpp */,
+				382FE9B22436CA8200A6E448 /* Makefile */,
+				38C85D62243D06EC00B21BD9 /* drone.cpp */,
 			);
 			path = project4;
+			sourceTree = "<group>";
+		};
+		382FE9A12436CA7300A6E448 /* P4-Samples-Mac-Unix */ = {
+			isa = PBXGroup;
+			children = (
+				382FE9A22436CA7300A6E448 /* sample-c-FASTTSP-out.txt */,
+				382FE9A32436CA7300A6E448 /* sample-ab-FASTTSP-out.txt */,
+				382FE9A42436CA7300A6E448 /* sample-e-MST-out.txt */,
+				382FE9A52436CA7300A6E448 /* sample-ab-MST-out.txt */,
+				382FE9A62436CA7300A6E448 /* sample-d-FASTTSP-out.txt */,
+				382FE9A72436CA7300A6E448 /* sample-e-FASTTSP-out.txt */,
+				382FE9A82436CA7300A6E448 /* sample-c-MST-out.txt */,
+				382FE9A92436CA7300A6E448 /* sample-d-MST-out.txt */,
+				382FE9AA2436CA7300A6E448 /* sample-c.txt */,
+				382FE9AB2436CA7300A6E448 /* sample-e-OPTTSP-out.txt */,
+				382FE9AC2436CA7300A6E448 /* sample-d-OPTTSP-out.txt */,
+				382FE9AD2436CA7300A6E448 /* sample-e.txt */,
+				382FE9AE2436CA7300A6E448 /* sample-c-OPTTSP-out.txt */,
+				382FE9AF2436CA7300A6E448 /* sample-d.txt */,
+				382FE9B02436CA7300A6E448 /* README.txt */,
+				382FE9B12436CA7300A6E448 /* sample-ab.txt */,
+			);
+			path = "P4-Samples-Mac-Unix";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				382FE99B2436CA3E00A6E448 /* main.cpp in Sources */,
+				38C85D63243D06EC00B21BD9 /* drone.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
